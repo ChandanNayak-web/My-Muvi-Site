@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.2/tailwind.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>SignUp</title>
+    <style>
+        #first {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        #header {
+            font-family: 'Lobster', cursive;
+        }
+
+        .signup {
+            font-family: 'Pacifico', cursive;
+        }
+
+        .lastquotes {
+            font-family: 'Righteous', cursive;
+        }
+
+        body {
+            background-image: url("https://source.unsplash.com/user/erondu/1600x900");
+            background-repeat: repeat-y;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+            <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+                <h1 id="header" class="title-font font-medium text-3xl text-gray-900">There’s nothing wrong with staying
+                    small. You can do big things with a small team.</h1>
+                <p id="first" class="leading-relaxed mt-4"> <strong>“Your work is going to fill a large part of your
+                        life, and the only way to be truly satisfied is to do what you believe is great work. And the
+                        only way to do great work is to love what you do.”</strong></p>
+            </div>
+            <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                <h2 class="signup" class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up Here</h2><br>
+                <div class="relative mb-4">
+                    <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Give Your Valid Full Name"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        required>
+                </div>
+                <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Give your Valid Email"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        required>
+                </div>
+                <a href="home.html"> <button
+                        class="text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none hover:bg-pink-600 rounded text-lg">Sign
+                        Up</button></a> <br>
+                <p class="lastquotes" class="text-xs text-gray-500 mt-3">Nothing works better than just improving our
+                    product</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
